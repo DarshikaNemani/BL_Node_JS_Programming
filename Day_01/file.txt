@@ -1,1 +1,0 @@
-Hello! I am file.text and this is demo of file reading in Node JS.
