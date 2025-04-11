@@ -2,7 +2,6 @@ function Employee(name, salary){
     this.name = name;
     this.salary = salary;
 
-    this.printdeets();
     console.log(this);
 }
 
@@ -11,3 +10,4 @@ Employee.prototype.printdeets = function(){
 }
 
 let emp = new Employee("ABC", 123);
+emp.printdeets();
