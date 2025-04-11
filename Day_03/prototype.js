@@ -11,3 +11,8 @@ Employee.prototype.printdeets = function(){
 
 let emp = new Employee("ABC", 123);
 emp.printdeets();
+console.log(emp.__proto__);
+
+console.log(emp.__proto__ === Employee.prototype)
+
+console.log(Employee.prototype.isPrototypeOf(emp))
