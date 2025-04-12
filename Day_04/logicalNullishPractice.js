@@ -1,0 +1,12 @@
+console.log('(0 || "ABC"):', 0 || "ABC");
+console.log('(0 ?? "ABC"):', 0 ?? "ABC");
+console.log('("" ?? "ABC"):', "" ?? "ABC");
+console.log('("" || "ABC"):', "" || "ABC"); 
+console.log('(true || "ABC"):', true || "ABC");
+console.log('(true ?? "ABC"):', true ?? "ABC");
+console.log('(false || "ABC"):', false || "ABC");
+console.log('(false ?? "ABC"):', false ?? "ABC");
+console.log('(null || "ABC"):', null || "ABC");
+console.log('(null ?? "ABC"):', null ?? "ABC"); 
+console.log('(undefined || "ABC"):', undefined || "ABC");
+console.log('(undefined ?? "ABC"):', undefined ?? "ABC"); 
