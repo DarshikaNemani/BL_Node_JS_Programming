@@ -2,4 +2,6 @@ function greet(Name){
     console.log(`Welcome! ${Name}.`)
 }
 
-setTimeout(greet,5000,'Darshika Nemani');
+let timer = setTimeout(greet,5000,'Darshika Nemani');
+
+clearTimeout(timer);
