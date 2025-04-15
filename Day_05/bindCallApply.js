@@ -13,4 +13,8 @@ function printName(place, stay){
 
 let name = printName.bind(fullName);
 
+printName.call(fullName, 'Bardoliii', 'Home');
+
+printName.apply(fullName,[ 'Bardoli', 'Homeee']);
+
 name('Bardoli', 'Home');
