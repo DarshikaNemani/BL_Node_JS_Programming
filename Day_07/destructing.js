@@ -8,8 +8,6 @@ const student = {
     hobbies: ["Reading", "Coding", "Music"]
 };
 
-const { name, age, address, hobbies } = student;
-const { state } = address;
-const [a, b] = hobbies;
+const { name, age, address: {state}, hobbies: [a,b] } = student;
 
 console.log(`${name} is ${age} years old, lives in ${state}, and enjoys ${a} and ${b}.`);
